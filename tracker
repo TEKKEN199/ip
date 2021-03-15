@@ -1,6 +1,6 @@
 import requests, os
 
-ip = "94.96.13.231"#input("IP $")
+ip = input("IP >>")
 url = "http://demo.ip-api.com/json/{}".format(ip)
 headers = {
 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36",
